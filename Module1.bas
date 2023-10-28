@@ -11,7 +11,7 @@ Function Úí”»’è(”N—î As Variant, Úí“ú As Date, ƒƒNƒ`ƒ“–¼ As String, ‰ñ” As
     Select Case ƒƒNƒ`ƒ“–¼
     'Œ»sƒƒNƒ`ƒ“
         Case "ƒRƒ~ƒiƒeƒBi‚w‚a‚aD‚PD‚Tj": Úí”»’è = XBBƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
-        Case "ƒRƒ~ƒiƒeƒB‚T‚©‚ç‚P‚PÎ—p‚w‚a‚aD‚PD‚T": Úí”»’è = ¬™XBBƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
+        Case "ƒRƒ~ƒiƒeƒB‚T‚©‚ç‚P‚PÎ—p‚w‚a‚aD‚PD‚T": Úí”»’è = ¬™XBBƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú, ‘O‰ñ”N—îE•¶)
         Case "ƒRƒ~ƒiƒeƒB‚U‚©Œ‚©‚ç‚SÎ—p‚w‚a‚aD‚PD‚T": Úí”»’è = “û—c™XBBƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú, ‘O‰ñ”N—îE•¶)
         Case "ƒXƒpƒCƒNƒoƒbƒNƒXi‚w‚a‚aD‚PD‚Tj": Úí”»’è = XBBƒ‚ƒfƒ‹ƒi”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
         Case "ƒXƒpƒCƒNƒoƒbƒNƒX‚U`‚P‚PÎ‚w‚a‚aD‚PD‚T": Úí”»’è = ¬™XBBƒ‚ƒfƒ‹ƒi”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
@@ -20,8 +20,8 @@ Function Úí”»’è(”N—î As Variant, Úí“ú As Date, ƒƒNƒ`ƒ“–¼ As String, ‰ñ” As
         Case "ƒtƒ@ƒCƒU[": Úí”»’è = ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
         Case "•“c^ƒ‚ƒfƒ‹ƒi": Úí”»’è = ƒ‚ƒfƒ‹ƒi”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
         Case "ƒAƒXƒgƒ‰ƒ[ƒlƒJ": Úí”»’è = ƒAƒXƒgƒ‰ƒ[ƒlƒJ”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
-        Case "ƒtƒ@ƒCƒU[i‚T‚©‚ç‚P‚PÎ—pj": Úí”»’è = ¬™ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
-        Case "ƒRƒ~ƒiƒeƒBi‚T‚©‚ç‚P‚PÎ—p‚a‚`D‚S^‚Tj": Úí”»’è = ¬™BA5ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
+        Case "ƒtƒ@ƒCƒU[i‚T‚©‚ç‚P‚PÎ—pj": Úí”»’è = ¬™ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú, ‘O‰ñ”N—îE•¶)
+        Case "ƒRƒ~ƒiƒeƒBi‚T‚©‚ç‚P‚PÎ—p‚a‚`D‚S^‚Tj": Úí”»’è = ¬™BA5ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú, ‘O‰ñ”N—îE•¶)
         Case "ƒRƒ~ƒiƒeƒBi‚Q‰¿F‚a‚`D‚Pj": Úí”»’è = BA1ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
         Case "ƒRƒ~ƒiƒeƒBi‚Q‰¿F‚a‚`D‚S^‚Tj": Úí”»’è = BA5ƒtƒ@ƒCƒU[”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
         Case "ƒXƒpƒCƒNƒoƒbƒNƒXi‚Q‰¿F‚a‚`D‚Pj": Úí”»’è = BA1ƒ‚ƒfƒ‹ƒi”»’è(”N—î, Úí“ú, ‰ñ”, ‘O‰ñÚí“ú)
@@ -68,12 +68,16 @@ Function XBBƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚ
         Case Else: XBBƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
     End Select
 End Function
-Function ¬™XBBƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant) As Variant()
+Function ¬™XBBƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant, ‘O‰ñ”N—îE•¶ As String) As Variant()
     Select Case Úí“ú
         Case Is >= #9/20/2023# 'ÚíŠJn
             Select Case ‰ñ”
                 Case 1: ¬™XBBƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™XBBƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™XBBƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™XBBƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case 3, 4, 5, 6: ¬™XBBƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 3, "Œ"))
                 Case Else: ¬™XBBƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
@@ -288,14 +292,18 @@ Function ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“
         Case Else: ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
     End Select
 End Function
-Function ¬™BA5ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant) As Variant()
+Function ¬™BA5ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant, ‘O‰ñ”N—îE•¶ As String) As Variant()
     Select Case Úí“ú
         Case Is >= #9/20/2023# 'ÚíI—¹
             ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
         Case Is >= #8/7/2023# '1E2‰ñ–ÚÚíŠJn
             Select Case ‰ñ”
                 Case 1: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case 3, 4, 5: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 3, "Œ"))
                 Case Else: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
@@ -312,34 +320,50 @@ Function ¬™BA5ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O
         Case Else: ¬™BA5ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
     End Select
 End Function
-Function ¬™ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant) As Variant()
+Function ¬™ƒtƒ@ƒCƒU[”»’è(”N—î As Variant, Úí“ú As Date, ‰ñ” As Long, ‘O‰ñÚí“ú As Variant, ‘O‰ñ”N—îE•¶ As String) As Variant()
     Select Case Úí“ú
         Case Is >= #9/20/2023# 'ÚíI—¹
             ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
         Case Is >= #4/1/2023# '3‰ñ–Úg—pI—¹
             Select Case ‰ñ”
                 Case 1: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™ƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
         Case Is >= #3/8/2023# '3‰ñ–ÚŠÔŠu’Zk
             Select Case ‰ñ”
                 Case 1: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™ƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case 3: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 3, "Œ"))
                 Case Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
         Case Is >= #9/6/2022# '3‰ñ–ÚÚíŠJn
             Select Case ‰ñ”
                 Case 1: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™ƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case 3: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 5, "Œ"))
                 Case Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
         Case Is >= #2/1/2022# 'ÚíŠJn
             Select Case ‰ñ”
                 Case 1: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), "")
-                Case 2: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                Case 2:
+                    If ‘O‰ñ”N—îE•¶ = "" Then
+                        ¬™ƒtƒ@ƒCƒU[”»’è = Array("", ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                        Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array(”N—î”»’è(”N—î, 5, 11), ŠÔŠu”»’è(Úí“ú, ‘O‰ñÚí“ú, 19, "“ú"))
+                    End If
                 Case Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠO‰ñ”")
             End Select
         Case Else: ¬™ƒtƒ@ƒCƒU[”»’è = Array("", "–@’èŠOƒƒNƒ`ƒ“")
